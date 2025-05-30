@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Informante - Noticias en tiempo real</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="Ciencia.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+     <!-- Barra de navegación superior -->
+    <nav class="top-nav">
+        <div class="container">
+            <div class="nav-left">
+                <span class="weather"><i class="fas fa-sun"></i> 28°C, Madrid</span>
+                <span class="date">Lunes, 26 de mayo de 2025</span>
+            </div>
+            <div class="nav-right">
+                <a href="#">Suscríbete</a>
+                <a href="#">Iniciar sesión</a>
+                <div class="search-box">
+                    <input type="text" placeholder="Buscar...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+                <button class="dark-mode-toggle"><i class="fas fa-moon"></i></button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header principal -->
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <h1>EL INFORMANTE</h1>
+                <p>Tu fuente confiable de noticias</p>
+            </div>
+            <div class="header-ads">
+                <img src="images/ad-header.jpg" alt="Publicidad">
+            </div>
+        </div>
+    </header>
+
+    <!-- Menú principal -->
+    <nav class="main-menu">
+        <div class="container">
+            <ul>
+                <li><a href="#"><i class="fas fa-home"></i> Inicio</a></li>
+                <li><a href="#"><i class="fas fa-newspaper"></i> Últimas Noticias</a></li>
+                <li><a href="#"><i class="fas fa-globe-americas"></i> Internacional</a></li>
+                <li><a href="#"><i class="fas fa-landmark"></i> Política</a></li>
+                <li><a href="#"><i class="fas fa-chart-line"></i> Economía</a></li>
+                <li><a href="#"><i class="fas fa-futbol"></i> Deportes</a></li>
+                <li><a href="#"><i class="fas fa-theater-masks"></i> Cultura</a></li>
+                <li><a href="#"><i class="fas fa-flask"></i> Ciencia</a></li>
+                <li><a href="#"><i class="fas fa-ellipsis-h"></i> Más</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+     <!-- Banner de ciencia -->
+    <section class="science-banner">
+        <div class="container">
+            <h2><i class="fas fa-microscope"></i> Explorando los Límites del Conocimiento</h2>
+            <p>Descubre los últimos avances científicos, investigaciones innovadoras y descubrimientos que están dando forma a nuestro futuro</p>
+        </div>
+    </section>
+
+    <!-- Contenido principal ciencia -->
+    <main class="container science-content">
+        <div class="main-content">
+            <!-- Artículo destacado -->
+            <article class="featured-article">
+                <div class="featured-image">
+                    <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Avances en energía nuclear">
+                </div>
+                <div class="featured-content">
+                    <span class="featured-category">Energía</span>
+                    <a href="Noticia1.html"><h2 class="featured-title">Nuevo reactor nuclear de fusión promete energía limpia e ilimitada</h2></a>
+                    <p class="featured-excerpt">Científicos del MIT han logrado mantener una reacción de fusión nuclear durante 30 minutos, un récord que acerca la posibilidad de energía limpia casi ilimitada. El avance podría resolver la crisis energética mundial.</p>
+                    <div class="card-meta">
+                        <span><i class="fas fa-user"></i> Dra. Elena Martínez</span>
+                        <span><i class="fas fa-clock"></i> Hace 3 horas</span>
+                        <span><i class="fas fa-comments"></i> 128 comentarios</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Sección de noticias -->
+            <h2 class="section-title">Últimos Descubrimientos</h2>
+            <div class="news-grid">
+                <!-- Noticia 1 -->
+                <article class="news-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1581094794329-ef7c7f5d0dae?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Robots médicos">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-category">Robótica</span>
+                        <h3 class="card-title">Nanobots logran eliminar tumores cancerígenos en ratones</h3>
+                        <p class="card-excerpt">Pequeños robots diseñados a escala nanométrica han demostrado capacidad para localizar y destruir células cancerosas sin dañar tejido sano.</p>
+                        <div class="card-meta">
+                            <span><i class="fas fa-clock"></i> Hace 5 horas</span>
+                            <span>1.2K vistas</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Noticia 2 -->
+                <article class="news-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1554475901-4538ddfbccc2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Cambio climático">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-category">Climatología</span>
+                        <h3 class="card-title">Nuevos datos revelan aceleración del deshielo en la Antártida</h3>
+                        <p class="card-excerpt">Satélites de última generación muestran que el deshielo es un 40% más rápido de lo estimado, lo que elevaría el nivel del mar más de lo previsto.</p>
+                        <div class="card-meta">
+                            <span><i class="fas fa-clock"></i> Hace 8 horas</span>
+                            <span>845 vistas</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Noticia 3 -->
+                <article class="news-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Inteligencia artificial">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-category">Inteligencia Artificial</span>
+                        <h3 class="card-title">IA desarrolla nuevo antibiótico contra bacterias resistentes</h3>
+                        <p class="card-excerpt">Un algoritmo de aprendizaje profundo ha identificado un compuesto capaz de eliminar bacterias que resisten a los antibióticos actuales.</p>
+                        <div class="card-meta">
+                            <span><i class="fas fa-clock"></i> Ayer</span>
+                            <span>2.1K vistas</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Noticia 4 -->
+                <article class="news-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1586769852836-bc069f19e1b6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Astronomía">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-category">Astronomía</span>
+                        <h3 class="card-title">Telescopio James Webb descubre agua en exoplaneta potencialmente habitable</h3>
+                        <p class="card-excerpt">El hallazgo en el planeta K2-18b aumenta las posibilidades de encontrar vida extraterrestre en los próximos años.</p>
+                        <div class="card-meta">
+                            <span><i class="fas fa-clock"></i> Ayer</span>
+                            <span>1.7K vistas</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Noticia 5 -->
+                <article class="news-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1581091226033-d5c48150dbaa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Neurociencia">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-category">Neurociencia</span>
+                        <h3 class="card-title">Implante cerebral permite a paciente paralítico caminar nuevamente</h3>
+                        <p class="card-excerpt">Un innovador dispositivo traduce señales cerebrales en movimientos, superando lesiones medulares consideradas irreversibles.</p>
+                        <div class="card-meta">
+                            <span><i class="fas fa-clock"></i> 26 may</span>
+                            <span>3.4K vistas</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Noticia 6 -->
+                <article class="news-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1586773860418-d37222d8fce3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Arqueología">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-category">Arqueología</span>
+                        <h3 class="card-title">Descubren ciudad perdida en Amazonas con tecnología LIDAR</h3>
+                        <p class="card-excerpt">Un complejo urbano de más de 2,500 años desafía lo que sabíamos sobre las civilizaciones precolombinas en la selva amazónica.</p>
+                        <div class="card-meta">
+                            <span><i class="fas fa-clock"></i> 25 may</span>
+                            <span>2.8K vistas</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-widget">
+                <h3 class="widget-title"><i class="fas fa-fire"></i> Lo más popular</h3>
+                <ul class="popular-list">
+                    <li class="popular-item">
+                        <img src="https://images.unsplash.com/photo-1589652717521-10c0d092dea9?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Popular 1">
+                        <div class="popular-content">
+                            <h4>Descubren nueva partícula subatómica</h4>
+                            <span class="views">4.5K vistas</span>
+                        </div>
+                    </li>
+                    <li class="popular-item">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Popular 2">
+                        <div class="popular-content">
+                            <h4>El cambio climático está alterando la rotación terrestre</h4>
+                            <span class="views">3.9K vistas</span>
+                        </div>
+                    </li>
+                    <li class="popular-item">
+                        <img src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Popular 3">
+                        <div class="popular-content">
+                            <h4>CRISPR corrige enfermedad genética en embriones humanos</h4>
+                            <span class="views">3.7K vistas</span>
+                        </div>
+                    </li>
+                    <li class="popular-item">
+                        <img src="https://images.unsplash.com/photo-1550828484-55f0abc43e03?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Popular 4">
+                        <div class="popular-content">
+                            <h4>El volcán de Hawaii revela secretos del manto terrestre</h4>
+                            <span class="views">3.2K vistas</span>
+                        </div>
+                    </li>
+                    <li class="popular-item">
+                        <img src="https://images.unsplash.com/photo-1581092654036-1b4ee7a2c9c1?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Popular 5">
+                        <div class="popular-content">
+                            <h4>Nuevo material superconductor funciona a temperatura ambiente</h4>
+                            <span class="views">3.0K vistas</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="sidebar-widget">
+                <h3 class="widget-title"><i class="fas fa-folder"></i> Categorías</h3>
+                <ul class="categories-list">
+                    <li><a href="#">Astronomía <span>42</span></a></li>
+                    <li><a href="#">Biología <span>38</span></a></li>
+                    <li><a href="#">Física <span>35</span></a></li>
+                    <li><a href="#">Química <span>31</span></a></li>
+                    <li><a href="#">Medicina <span>56</span></a></li>
+                    <li><a href="#">Tecnología <span>67</span></a></li>
+                    <li><a href="#">Medio Ambiente <span>29</span></a></li>
+                    <li><a href="#">Neurociencia <span>24</span></a></li>
+                    <li><a href="#">Arqueología <span>18</span></a></li>
+                </ul>
+            </div>
+
+            <div class="subscribe-widget">
+                <h3><i class="fas fa-paper-plane"></i> Boletín Científico</h3>
+                <p>Recibe semanalmente los avances científicos más relevantes</p>
+                <form class="subscribe-form">
+                    <input type="email" placeholder="Tu correo electrónico" required>
+                    <button type="submit">Suscribirme</button>
+                </form>
+            </div>
+        </aside>
+    </main>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <h3>Mantente actualizado con la ciencia</h3>
+            <p>Recibe diariamente las noticias científicas más importantes en tu correo</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Tu correo electrónico" required>
+                <button type="submit">Suscribirse</button>
+            </form>
+            <div class="social-media">
+                <span>Síguenos en:</span>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-columns">
+                <div class="footer-column">
+                    <h4>EL INFORMANTE</h4>
+                    <p>El periódico digital líder en información científica veraz y oportuna desde 1995.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Secciones Científicas</h4>
+                    <ul>
+                        <li><a href="#">Astronomía y Espacio</a></li>
+                        <li><a href="#">Salud y Medicina</a></li>
+                        <li><a href="#">Tecnología e Innovación</a></li>
+                        <li><a href="#">Medio Ambiente</a></li>
+                        <li><a href="#">Ciencias Sociales</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Enlaces útiles</h4>
+                    <ul>
+                        <li><a href="#">Equipo editorial</a></li>
+                        <li><a href="#">Contacto para investigadores</a></li>
+                        <li><a href="#">Trabaja con nosotros</a></li>
+                        <li><a href="#">Aviso legal</a></li>
+                        <li><a href="#">Política de privacidad</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Recursos científicos</h4>
+                    <ul>
+                        <li><a href="#">Base de datos de estudios</a></li>
+                        <li><a href="#">Calendario de eventos</a></li>
+                        <li><a href="#">Revistas especializadas</a></li>
+                        <li><a href="#">Convocatorias de financiación</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2025 El Informante - Ciencia. Todos los derechos reservados.</p>
+                <div class="footer-links">
+                    <a href="#">Mapa del sitio</a>
+                    <a href="#">Configuración de cookies</a>
+                    <a href="#">Preferencias</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botón de volver arriba -->
+    <button class="back-to-top"><i class="fas fa-arrow-up"></i></button>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-columns">
+                <div class="footer-column">
+                    <h4>EL INFORMANTE</h4>
+                    <p>El periódico digital líder en información veraz y oportuna desde 1995.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Secciones</h4>
+                    <ul>
+                        <li><a href="#">Internacional</a></li>
+                        <li><a href="#">Política</a></li>
+                        <li><a href="#">Economía</a></li>
+                        <li><a href="#">Deportes</a></li>
+                        <li><a href="#">Cultura</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Empresa</h4>
+                    <ul>
+                        <li><a href="#">Quiénes somos</a></li>
+                        <li><a href="#">Contacto</a></li>
+                        <li><a href="#">Trabaja con nosotros</a></li>
+                        <li><a href="#">Aviso legal</a></li>
+                        <li><a href="#">Política de privacidad</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Suscríbete</h4>
+                    <p>Recibe nuestro boletín con las noticias más importantes del día.</p>
+                    <form class="footer-newsletter">
+                        <input type="email" placeholder="Tu correo electrónico">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2025 El Informante. Todos los derechos reservados.</p>
+                <div class="footer-links">
+                    <a href="#">Mapa del sitio</a>
+                    <a href="#">Configuración de cookies</a>
+                    <a href="#">Preferencias</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botón de volver arriba -->
+    <button class="back-to-top"><i class="fas fa-arrow-up"></i></button>
+
+    <!-- Menú móvil -->
+    <div class="mobile-menu">
+        <button class="mobile-menu-toggle"><i class="fas fa-bars"></i></button>
+        <div class="mobile-menu-content">
+            <ul>
+                <li><a href="#"><i class="fas fa-home"></i> Inicio</a></li>
+                <!-- Otras opciones del menú -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="Ciencia.js"></script>
+</body>
+</html>

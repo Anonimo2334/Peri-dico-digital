@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Informante - Noticias en tiempo real</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Barra de navegación superior -->
+    <nav class="top-nav">
+        <div class="container">
+            <div class="nav-left">
+                <span class="weather"><i class="fas fa-sun"></i> 28°C, Madrid</span>
+                <span class="date">Lunes, 26 de mayo de 2025</span>
+            </div>
+            <div class="nav-right">
+                <a href="#">Suscríbete</a>
+                <a href="#">Iniciar sesión</a>
+                <div class="search-box">
+                    <input type="text" placeholder="Buscar...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+                <button class="dark-mode-toggle"><i class="fas fa-moon"></i></button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header principal -->
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <h1>EL INFORMANTE</h1>
+                <p>Tu fuente confiable de noticias</p>
+            </div>
+            <div class="header-ads">
+                <img src="images/ad-header.jpg" alt="Publicidad">
+            </div>
+        </div>
+    </header>
+
+    <!-- Menú principal -->
+    <nav class="main-menu">
+        <div class="container">
+            <ul>
+                <li><a href="#"><i class="fas fa-home"></i> Inicio</a></li>
+                <li><a href="#"><i class="fas fa-newspaper"></i> Últimas Noticias</a></li>
+                <li><a href="#"><i class="fas fa-globe-americas"></i> Internacional</a></li>
+                <li><a href="#"><i class="fas fa-landmark"></i> Política</a></li>
+                <li><a href="#"><i class="fas fa-chart-line"></i> Economía</a></li>
+                <li><a href="Deportes/Deporte.html"><i class="fas fa-futbol"></i> Deportes</a></li>
+                <li><a href="Cultu/Cultura.html"><i class="fas fa-theater-masks"></i> Cultura</a></li>
+                <li><a href="Ciencia.html"><i class="fas fa-flask"></i> Ciencia</a></li>
+                <li><a href="#"><i class="fas fa-ellipsis-h"></i> Más</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contenido principal -->
+    <main class="container">
+        <!-- Sección de noticia destacada -->
+        <section class="featured-news">
+            <article class="main-feature">
+                <img src="images/featured-news.jpg" alt="Noticia destacada">
+                <div class="feature-content">
+                    <span class="badge breaking">ÚLTIMA HORA</span>
+                    <h2>Descubrimiento científico revoluciona el tratamiento del cáncer</h2>
+                    <p class="excerpt">Investigadores españoles han desarrollado una terapia que aumenta la efectividad del tratamiento en un 75% sin efectos secundarios graves...</p>
+                    <div class="meta">
+                        <span class="author"><i class="fas fa-user"></i> María González</span>
+                        <span class="time"><i class="fas fa-clock"></i> Hace 15 minutos</span>
+                        <span class="comments"><i class="fas fa-comments"></i> 42 comentarios</span>
+                    </div>
+                </div>
+            </article>
+            
+            <div class="secondary-features">
+                <article class="secondary-feature">
+                    <img src="images/news2.jpg" alt="Noticia secundaria">
+                    <span class="badge politics">POLÍTICA</span>
+                    <h3>El gobierno anuncia nuevas medidas económicas para combatir la inflación</h3>
+                    <div class="meta">
+                        <span class="time"><i class="fas fa-clock"></i> Hace 1 hora</span>
+                    </div>
+                </article>
+                
+                <article class="secondary-feature">
+                    <img src="images/news3.jpg" alt="Noticia secundaria">
+                    <span class="badge sports">DEPORTES</span>
+                    <h3>El Real Madrid conquista su decimoquinta Champions League</h3>
+                    <div class="meta">
+                        <span class="time"><i class="fas fa-clock"></i> Hace 3 horas</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Sección de noticias por categorías -->
+        <section class="news-categories">
+            <div class="category-column">
+                <h3 class="category-title"><i class="fas fa-globe-americas"></i> Internacional</h3>
+                <article class="news-item">
+                    <img src="images/int1.jpg" alt="Noticia internacional">
+                    <div class="news-content">
+                        <h4>Conflicto en Oriente Medio: nuevo acuerdo de paz</h4>
+                        <p class="excerpt">Las negociaciones entre las partes han dado fruto tras meses de tensiones...</p>
+                        <div class="meta">
+                            <span class="time">Hace 5 horas</span>
+                            <span class="comments">28 comentarios</span>
+                        </div>
+                    </div>
+                </article>
+                <!-- Más artículos de internacional -->
+            </div>
+            
+            <div class="category-column">
+                <h3 class="category-title"><i class="fas fa-chart-line"></i> Economía</h3>
+                <article class="news-item">
+                    <img src="images/eco1.jpg" alt="Noticia economía">
+                    <div class="news-content">
+                        <h4>El IBEX 35 alcanza máximos históricos</h4>
+                        <p class="excerpt">La bolsa española supera los 11.000 puntos impulsada por el sector tecnológico...</p>
+                        <div class="meta">
+                            <span class="time">Hace 7 horas</span>
+                            <span class="comments">15 comentarios</span>
+                        </div>
+                    </div>
+                </article>
+                <!-- Más artículos de economía -->
+            </div>
+            
+            <div class="category-column">
+                <h3 class="category-title"><i class="fas fa-futbol"></i> Deportes</h3>
+                <article class="news-item">
+                    <img src="images/dep1.jpg" alt="Noticia deportes">
+                    <div class="news-content">
+                        <h4>La selección española presenta su nueva camiseta</h4>
+                        <p class="excerpt">El diseño ha generado polémica entre los aficionados por su color predominante...</p>
+                        <div class="meta">
+                            <span class="time">Hace 9 horas</span>
+                            <span class="comments">63 comentarios</span>
+                        </div>
+                    </div>
+                </article>
+                <!-- Más artículos de deportes -->
+            </div>
+        </section>
+
+        <!-- Sección de newsletter -->
+        <section class="newsletter">
+            <div class="newsletter-content">
+                <h3>Recibe las noticias más importantes en tu correo</h3>
+                <p>Suscríbete a nuestro boletín diario y no te pierdas nada</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Tu correo electrónico" required>
+                    <button type="submit">Suscribirse</button>
+                </form>
+                <div class="social-media">
+                    <span>Síguenos:</span>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de noticias populares -->
+        <section class="popular-news">
+            <h2 class="section-title"><i class="fas fa-fire"></i> Lo más leído</h2>
+            <div class="popular-grid">
+                <article class="popular-item">
+                    <span class="number">1</span>
+                    <div class="popular-content">
+                        <h4>Famoso actor confirma su retirada del cine</h4>
+                        <div class="meta">
+                            <span class="category entertainment">Entretenimiento</span>
+                            <span class="views">245K vistas</span>
+                        </div>
+                    </div>
+                </article>
+                <!-- Más artículos populares -->
+            </div>
+        </section>
+
+        <!-- Sección de multimedia -->
+        <section class="multimedia">
+            <h2 class="section-title"><i class="fas fa-photo-video"></i> Multimedia</h2>
+            <div class="multimedia-grid">
+                <article class="media-item video">
+                    <img src="images/video1.jpg" alt="Video destacado">
+                    <div class="media-content">
+                        <span class="duration">12:45</span>
+                        <h4>Así fue el terremoto en Indonesia</h4>
+                        <span class="views">1.2M vistas</span>
+                    </div>
+                </article>
+                <!-- Más elementos multimedia -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-columns">
+                <div class="footer-column">
+                    <h4>EL INFORMANTE</h4>
+                    <p>El periódico digital líder en información veraz y oportuna desde 1995.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Secciones</h4>
+                    <ul>
+                        <li><a href="#">Internacional</a></li>
+                        <li><a href="#">Política</a></li>
+                        <li><a href="#">Economía</a></li>
+                        <li><a href="#">Deportes</a></li>
+                        <li><a href="#">Cultura</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Empresa</h4>
+                    <ul>
+                        <li><a href="#">Quiénes somos</a></li>
+                        <li><a href="#">Contacto</a></li>
+                        <li><a href="#">Trabaja con nosotros</a></li>
+                        <li><a href="#">Aviso legal</a></li>
+                        <li><a href="#">Política de privacidad</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Suscríbete</h4>
+                    <p>Recibe nuestro boletín con las noticias más importantes del día.</p>
+                    <form class="footer-newsletter">
+                        <input type="email" placeholder="Tu correo electrónico">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2025 El Informante. Todos los derechos reservados.</p>
+                <div class="footer-links">
+                    <a href="#">Mapa del sitio</a>
+                    <a href="#">Configuración de cookies</a>
+                    <a href="#">Preferencias</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botón de volver arriba -->
+    <button class="back-to-top"><i class="fas fa-arrow-up"></i></button>
+
+    <!-- Menú móvil -->
+    <div class="mobile-menu">
+        <button class="mobile-menu-toggle"><i class="fas fa-bars"></i></button>
+        <div class="mobile-menu-content">
+            <ul>
+                <li><a href="#"><i class="fas fa-home"></i> Inicio</a></li>
+                <!-- Otras opciones del menú -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
