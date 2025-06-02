@@ -1,0 +1,332 @@
+ /* Banner de Politica */
+        .science-banner {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1532094349884-543bc11b234d?ixlib=rb-4.0.3') center/cover;
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+            margin: 20px 0;
+        }
+
+        .science-banner h2 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .science-banner p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Contenido principal ciencia */
+        .science-content {
+            display: flex;
+            gap: 30px;
+            margin: 40px 0;
+        }
+
+        .main-content {
+            flex: 3;
+        }
+
+        .sidebar {
+            flex: 1;
+        }
+
+        .section-title {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid var(--primary-color);
+            color: var(--primary-color);
+        }
+
+        .news-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+
+        .news-card {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+
+        .news-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card-image {
+            height: 200px;
+            overflow: hidden;
+        }
+
+        .card-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s;
+        }
+
+        .news-card:hover .card-image img {
+            transform: scale(1.05);
+        }
+
+        .card-content {
+            padding: 20px;
+        }
+
+        .card-category {
+            display: inline-block;
+            background: var(--primary-color);
+            color: white;
+            padding: 3px 10px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            margin-bottom: 10px;
+        }
+
+        .card-title {
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+        }
+
+        .card-excerpt {
+            color: var(--gray-color);
+            margin-bottom: 15px;
+        }
+
+        .card-meta {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.85rem;
+            color: var(--gray-color);
+        }
+
+        .featured-article {
+            display: flex;
+            gap: 30px;
+            margin-bottom: 50px;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .featured-image {
+            flex: 1;
+        }
+
+        .featured-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .featured-content {
+            flex: 1;
+            padding: 30px;
+        }
+
+        .featured-category {
+            background: var(--primary-color);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            display: inline-block;
+            margin-bottom: 15px;
+            font-size: 0.9rem;
+        }
+
+        .featured-title {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+        }
+
+        .featured-excerpt {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+            color: var(--gray-color);
+        }
+
+        .sidebar-widget {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+        }
+
+        .widget-title {
+            font-size: 1.3rem;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--primary-color);
+        }
+
+        .popular-list {
+            list-style: none;
+        }
+
+        .popular-item {
+            display: flex;
+            gap: 15px;
+            padding: 15px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .popular-item:last-child {
+            border-bottom: none;
+        }
+
+        .popular-item img {
+            width: 80px;
+            height: 60px;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+
+        .popular-content h4 {
+            font-size: 0.95rem;
+            margin-bottom: 5px;
+        }
+
+        .popular-content .views {
+            font-size: 0.8rem;
+            color: var(--gray-color);
+        }
+
+        .categories-list {
+            list-style: none;
+        }
+
+        .categories-list li {
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .categories-list li:last-child {
+            border-bottom: none;
+        }
+
+        .categories-list a {
+            display: flex;
+            justify-content: space-between;
+            transition: color 0.3s;
+        }
+
+        .categories-list a:hover {
+            color: var(--primary-color);
+        }
+
+        .categories-list span {
+            background: var(--primary-color);
+            color: white;
+            padding: 2px 8px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+        }
+
+        .subscribe-widget {
+            background: linear-gradient(135deg, var(--primary-color), #1b5e20);
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+            border-radius: 8px;
+        }
+
+        .subscribe-widget h3 {
+            margin-bottom: 15px;
+        }
+
+        .subscribe-widget p {
+            margin-bottom: 20px;
+            opacity: 0.9;
+        }
+
+        .subscribe-form input {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border: none;
+            border-radius: 4px;
+        }
+
+        .subscribe-form button {
+            width: 100%;
+            padding: 12px;
+            background: var(--dark-color);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .subscribe-form button:hover {
+            background: #000;
+        }
+
+        /* Newsletter */
+        .newsletter {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 40px 0;
+            margin: 40px 0;
+            text-align: center;
+        }
+
+        .newsletter h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .newsletter p {
+            margin-bottom: 20px;
+            opacity: 0.9;
+        }
+
+        .newsletter-form {
+            display: flex;
+            max-width: 500px;
+            margin: 0 auto 20px;
+        }
+
+        .newsletter-form input {
+            flex: 1;
+            padding: 12px 15px;
+            border: none;
+            border-radius: 4px 0 0 4px;
+        }
+
+        .newsletter-form button {
+            background-color: var(--dark-color);
+            color: white;
+            border: none;
+            padding: 0 20px;
+            border-radius: 0 4px 4px 0;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .social-media {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .social-media a {
+            color: white;
+            font-size: 1.2rem;
+            transition: opacity 0.3s;
+        }
+
+        .social-media a:hover {
+            opacity: 0.8;
+        }
